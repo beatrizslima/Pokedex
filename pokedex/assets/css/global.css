@@ -1,0 +1,41 @@
+/* fonte roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+
+/* estilização principal */
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color:  #98d5d7;
+    ;
+}
+
+h1 {
+    font-family: Roboto Medium 500;
+    color: #333;
+}
+.content{
+    height: 100vh; /* tamanho da tela inteira */
+    width: 100vw;
+    padding: 1rem;
+    background-color: #fff;
+    
+}
+
+@media screen and (min-width: 992px){ /* quando a tela atingir o minimo de 992px */
+    .content{
+        max-width: 992px;  /* o maximo do conteudo sera de 992px */
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
+.content h1 {
+    margin: 0;
+}
+
+
